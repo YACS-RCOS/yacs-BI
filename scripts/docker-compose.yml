@@ -1,0 +1,25 @@
+version: '3'
+
+services: 
+  mongo_db:
+    container_name: mongo
+    image: 'aashreys/mongo-auth'
+    environment:
+      - AUTH=yes 
+      - MONGODB_ADMIN_USER=yacsdev
+      - MONGODB_ADMIN_PASS=yacsdevpass
+      - MONGODB_APPLICATION_DATABASE=YacsDB
+      - MONGODB_APPLICATION_USER=yacsBI
+      - MONGODB_APPLICATION_PASS=yacsBIpass
+    ports:
+      - "27017:27017"
+
+  python_env:
+    container_name: python_env
+    build: ../
+    stdin_open: true
+    tty: true
+    depends_on:
+      - mongo_db
+    volumes:
+      - ../:/usr/src
