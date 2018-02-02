@@ -13,6 +13,9 @@ services:
       - MONGODB_APPLICATION_PASS=yacsBIpass
     ports:
       - "27017:27017"
+    volumes:
+      - ../:/usr/src
+
 
   python_env:
     container_name: python_env

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Make sure you run exec_mongo.sh first
+
 # Import courses
 mongoimport \
 	--jsonArray \
