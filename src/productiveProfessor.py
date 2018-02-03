@@ -25,5 +25,13 @@ for section in all_sections_in_Fall16:
 	else:
 		profs[prof] = 1
 
-for x in sorted(profs):
-    print(x, profs[x])
+# for x in sorted(profs):
+#     print(x, profs[x])
+
+# hhhhhhhhhh
+for e in sorted(profs.items(),key = lambda x:x[1],reverse = True):
+    if "Bu" in e[0]:
+        print(e)
+    # print(e[0])
+    # if (e[0][0]=="M"):
+        # print(e)    
