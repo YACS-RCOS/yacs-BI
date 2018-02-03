@@ -37,3 +37,12 @@ mongoimport \
 	--drop --file ../db_back/conflicts.json \
 	--username yacsBI \
 	--password yacsBIpass
+
+# Import semesters
+mongoimport \
+	--jsonArray \
+	--db YacsDB \
+	--collection semesters \
+	--drop --file ../db_back/semesters.json \
+	--username yacsBI \
+	--password yacsBIpass
