@@ -24,5 +24,7 @@ services:
     tty: true
     depends_on:
       - mongo_db
+    ports:
+      - "8888:8888"
     volumes:
-      - ../:/usr/src
+      - ../:/home/jovyan/work
