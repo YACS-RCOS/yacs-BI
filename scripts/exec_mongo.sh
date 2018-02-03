@@ -1,3 +1,3 @@
-echo 'docker exec -it mongo sh'
-docker exec -it mongo sh
+echo 'docker exec -it mongo bash'
+docker exec -it mongo bash
 
