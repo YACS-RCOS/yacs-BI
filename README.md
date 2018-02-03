@@ -11,10 +11,15 @@ $ ./scripts/init.sh
 
 Wait till you see the terminal says "MongoDB configured successfully. You may now connect to the DB."
 
-3. DB migrationg
+3. (If you have mongo installed)DB migration
 ```
 $ cd ./scripts
 $ ./db_migrate.sh
+```
+3.5 For ppl who don't have mongo installed,use this to get into the mongo container
+
+```
+$ ./exec_mongo.sh
 ```
 
 4. vola, you are all set!
