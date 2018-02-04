@@ -1,6 +1,8 @@
 # yacs-BI
 Repo for yacs data analysis.
 
+
+
 ## Setup the Env
 1. Make sure you have docker running.
 
@@ -16,10 +18,14 @@ Wait till you see the terminal says "MongoDB configured successfully. You may no
 $ cd ./scripts
 $ ./db_migrate.sh
 ```
-3.5 For ppl who don't have mongo installed,use this to get into the mongo container
+PS: For ppl who don't have mongo installed,use this to get into the mongo container, then cd into usr/src/scripts/
 
 ```
 $ ./exec_mongo.sh
 ```
 
 4. vola, you are all set!
+
+# Collection Relationships:
+
+![Relationship](https://github.com/YACS-RCOS/yacs-BI/MISC/Collections_Relationship.png "Relationship")
