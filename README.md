@@ -28,4 +28,4 @@ $ ./exec_mongo.sh
 
 # Collection Relationships:
 
-![Relationship](https://github.com/YACS-RCOS/yacs-BI/MISC/Collections_Relationship.png "Relationship")
+![Relationship](https://github.com/YACS-RCOS/yacs-BI/blob/master/MISC/Collections_Relationship.png "Relationship")
