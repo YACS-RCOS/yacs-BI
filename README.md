@@ -24,8 +24,9 @@ PS: For ppl who don't have mongo installed,use this to get into the mongo contai
 $ ./exec_mongo.sh
 ```
 
-4. vola, you are all set!
+4. Vola, you are all set!
 
 # Collection Relationships:
 
 ![Relationship](https://github.com/YACS-RCOS/yacs-BI/blob/master/MISC/Collections_Relationship.png "Relationship")
+
